@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #444;
+}
+
+.header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header img {
+    width: 30%;
+    height: auto;
+}
+
+.header img .couple {
+    width: 25%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .header img {
+        width: 50%;
+    }
+}
+
+.parent-details img {
+    margin-bottom: 20px;
+    width: 20%;
+    height: auto;
+}
+
+.parent-details .bride img  {
+    position: absolute;
+    float: left;
+    left: 10%;
+    top: 220px;
+}
+
+.parent-details .groom img {
+    position: absolute;
+    float: right;
+    right: 10%;
+    top: 220px;
+}
+
+.parent-details .bridename, .parent-details .groomname {
+    margin-top: 12%;
+    width: 18%;
+}
+
+.invitation img {
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+}

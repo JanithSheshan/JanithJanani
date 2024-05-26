@@ -7,9 +7,17 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
     overflow: hidden;
+    border-color: black
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 80%;
+    }
+    
 }
 
 h1 {
@@ -155,4 +163,17 @@ button:hover {
     align-items: center;
     margin: auto;
     width: 100%;
+}
+
+#loader{
+	display: block;
+    position: fixed;
+    right: 10px;
+    left: 10px;
+	height: 95%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+	background: #af982f url('../img/preload.gif') no-repeat center;
+	z-index: 999;
 }

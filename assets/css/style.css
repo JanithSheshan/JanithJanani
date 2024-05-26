@@ -66,7 +66,7 @@ button:hover {
     height: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .header img {
         width: 50%;
     }
@@ -102,6 +102,58 @@ button:hover {
     margin: auto;
     text-align: center;
     align-items: center;
-    width: 60%;
+    width: 80%;
     height: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .invitation img {
+        width: 100%;
+    }
+}
+
+.time-date img {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.location .place img {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.location .address img {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.contact img {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+}
+
+@media screen and (max-width: 700px) {
+    .contact img {
+        width: 100%;
+    }
+}
+
+.footer img {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
 }
